@@ -110,6 +110,7 @@ I2. Mean and Standard Deviation of Euclidean norm of FFT of body angular velocit
 There are two ID variables (subject and activity) and 8x8 + 2 = 66 feature variables. In total, there are 68 variables.
 
 +++++++++++++
+
 Description of the feature variables:
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals *tAcc-XYZ* and *tGyro-XYZ*. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (*tBodyAcc-XYZ* and *tGravityAcc-XYZ*) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
